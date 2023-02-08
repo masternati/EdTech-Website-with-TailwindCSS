@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="container mx-auto">
+  <header>
+    <nav class="bg-gray-50 dark:bg-gray-700">
+      <div class="flex justify-between max-w-screen-xl px-4 py-3 mx-auto md:px-6">
+        <div>
+          <h1>Hello People</h1>
+        </div>
+        <div class="flex items-center">
+              <ul class="flex flex-row mt-0 md:mr-6 sm:space-x-5 md:space-x-8 text-sm font-medium">
+                  <li>
+                      <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
+                  </li>
+                  <li>
+                      <a href="#" class="text-gray-900 dark:text-white hover:underline">Company</a>
+                  </li>
+                  <li>
+                      <a href="#" class="text-gray-900 dark:text-white hover:underline">Team</a>
+                  </li>
+                  <li>
+                      <a href="#" class="text-gray-900 dark:text-white hover:underline">Features</a>
+                  </li>
+              </ul>
+        </div>
+          
+      </div>
+    </nav>
+
+    <nav class="container mx-auto sm:px-10 navbar navbar-expand-lg py-2 bg-white relative flex items-center w-full justify-between">
+            <div>
+                <h1 class="lg:text-4xl md:text-3xl sm:text-2sxl font-bold">SHT LTD</h1>
+            </div>
+            <div class="md:flex-row-reverse sm:flex-row-reverse flex lg:flex-row md:px-0 lg:justify-between">
+                <div class="flex flex-wrap items-center justify-between">
+                    <div class="flex items-center">
+                        <button
+                            class="navbar-toggler border-0 py-3 lg:hidden md:block leading-none  text-xl bg-transparent text-gray-600 hover:text-gray-700 focus:text-gray-700 transition-shadow duration-150 ease-in-out mr-2"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentY"
+                            aria-controls="navbarSupportedContentY" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-5" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse grow items-center" id="navbarSupportedContentY">
+                        <ul class="navbar-nav mr-auto lg:flex lg:flex-row">
+                            <li class="nav-item">
+                                <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-white hover:bg-blue-500 mx-4 text-2xl focus:text-gray-700 transition duration-150 ease-in-out"
+                                    href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-white hover:bg-blue-500 mx-4 text-2xl focus:text-gray-700 transition duration-150 ease-in-out"
+                                    href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-white hover:bg-blue-500 mx-4 text-2xl focus:text-gray-700 transition duration-150 ease-in-out"
+                                    href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-white hover:bg-blue-500 mx-4 text-2xl focus:text-gray-700 transition duration-150 ease-in-out"
+                                    href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-white hover:bg-blue-500 mx-4 text-2xl focus:text-gray-700 transition duration-150 ease-in-out"
+                                    href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">About</a>
+                            </li>
+                            <li class="nav-item mb-2 lg:mb-0">
+                                <a class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-white hover:bg-blue-500 mx-4 text-2xl focus:text-gray-700 transition duration-150 ease-in-out"
+                                    href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hidden md:block md:mr-8">
+                    <button class="border-solid border-2 border-blue-700 px-4 py-1 font-semibold text-2xl">Register</button>
+                </div>
+            </div>
+        </nav>
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
